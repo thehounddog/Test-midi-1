@@ -20,7 +20,7 @@ CC4, Velocity 107 is 147 BPM etc.
 When the required tempo is above 160 BPM I switch to the second assign which has a different range (160 - 287).
 
 **Hopefully someone can help with**
-1) improve my approach - it would be good not to use assgns as a minimum
+1) Improve my approach - it would be good not to use assigns. Is there a standard message to set Tempo that is supported by the RC600?
 2) The BPM should be 24000/notetime but it was slughtly wrong (about 1%). My guess is that this is due to processing time required by the ESP32. I made adjustments to the 24000 number by trial and error until the BPM was correct. I ended up with 240110
 3) improve my code - this is my first C++ project and I'm sure the code is a complete mess for anyone who knows what they are doing.
 
